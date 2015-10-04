@@ -26,6 +26,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 
+#Carrierwave image upload and storage
+gem 'carrierwave'
+gem 'fog', require: 'fog/aws'
+
+#figaro password protect
+gem "figaro"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
