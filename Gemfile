@@ -33,6 +33,9 @@ gem 'fog', require: 'fog/aws'
 #figaro password protect
 gem "figaro"
 
+#minimagick image converter
+gem "mini_magick"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
